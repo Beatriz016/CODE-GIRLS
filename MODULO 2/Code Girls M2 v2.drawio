@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 OPR/121.0.0.0" version="28.2.0">
+  <diagram name="Page-1" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
+    <mxGraphModel dx="102" dy="-266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bgfeNwluQb7EhdpXeUKg-2" target="bgfeNwluQb7EhdpXeUKg-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1790" y="910" />
+              <mxPoint x="1790" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-12" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bgfeNwluQb7EhdpXeUKg-10">
+          <mxGeometry x="-0.1247" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-2" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="870" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="1901" y="871" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="869.5" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bgfeNwluQb7EhdpXeUKg-5" target="bgfeNwluQb7EhdpXeUKg-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1515" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-13" value="AWS CLI&amp;nbsp;&lt;div&gt;Transfer File&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bgfeNwluQb7EhdpXeUKg-8">
+          <mxGeometry x="-0.6064" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-5" value="File" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1055" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bgfeNwluQb7EhdpXeUKg-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1688" y="1090" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bgfeNwluQb7EhdpXeUKg-3" target="bgfeNwluQb7EhdpXeUKg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-14" value="Lambda Node.Js Net CORE&lt;div&gt;Python&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="967" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-15" value="Dynamo DB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2104" y="950.5" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-16" value="Sistema de Arquivos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1676" y="1125" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bgfeNwluQb7EhdpXeUKg-21" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=light-dark(#3399FF,#BFD3FF);shape=mxgraph.azure.computer" vertex="1" parent="1">
+          <mxGeometry x="1689.83" y="1070.5" width="58.33" height="52.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

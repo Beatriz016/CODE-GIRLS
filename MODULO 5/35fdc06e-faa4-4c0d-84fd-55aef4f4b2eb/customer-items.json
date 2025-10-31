@@ -1,0 +1,16 @@
+{
+    "Customers2": [       
+        {
+            "PutRequest": {
+                "Item": {
+                    "CustomerId": {"N": "110"},
+                    "Name": {"S": "Aula de AWS"},
+                    "City": {"S": "Brazil"},
+                    "State": {"S": "SP"},
+                    "Car": {"S": "RAM"},
+                    "Job": {"S": "DevOps"}
+                }
+            }
+        }
+    ]
+}

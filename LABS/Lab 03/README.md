@@ -14,6 +14,7 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 <br>
 
 # # Código
+
 1 - Criação de instancia EC2
 <img src="./images/01EC2.png" width="600">
 
@@ -34,6 +35,8 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 ---
 **What is AWS CloudFormation?** 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
+
+
 
 
 

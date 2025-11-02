@@ -14,6 +14,7 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 <br>
 
 # # Código
+
 1 - Criação de instancia EC2
 ![alt text](<./images/01EC2.png>)
 
@@ -21,7 +22,7 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 ![alt text](<./images/02apache.png>)
 ![alt text](<./images/021apache.png>)
 
-1 - Criação/Configuração Firewall
+3 - Criação/Configuração Firewall
 ![alt text](<./images/03firewall.png>)
 ![alt text](<./images/031firewall.png>)
 
@@ -33,6 +34,7 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 ---
 **What is AWS CloudFormation?** 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
+
 
 
 

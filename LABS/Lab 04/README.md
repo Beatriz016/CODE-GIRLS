@@ -57,13 +57,47 @@ Resources:
       ImageId: "ami-12345678"
 
 ```
+<br>
+<br>
+
+No console da AWS selecione o serviço Cloudformation e clique em Create Stack.
+
+<img src="./images/CloudFormation.png" width="650">
+
+<br>
+
+Selecione o template e selecione LAMP Stack
+<img src="./images/CloudFormation2.png" width="600">
+
+<br>
+
+Este é o código escrito no formato JSON que contem todas as especificações e dependencias sobre a infraestrutura a ser criada.
+
+<img src="./images/codigojson.png" width="600">
+
+<br>
+
+Agora clique no botão de upload em forma de nuvem para sair do designer
+
+<img src="./images/upload.png" width="600">
+
+Nas demais telas iremos finalizas as configurações para a criação do nosso recurso, por exemplo se for um EC2, escolheremos tipo do EC2 e outros detalhes
+
+<br>
+
+## Diferenças
+
+| Serviço  | Descrição                                                                   |
+| ------------------------ | ----------------------------------------------------------------------------|
+|  **AWS CloudFormation**           | Especifico da AWS. |
+|  **Terraform**        | Suporta varios provedores de Cloud, o que o torna versatil para ambientes multi-cloud. |
 
 
 ---
 <br>
 <br>
 
-🧩 Documentação AWS Step Functions
+🧩 Documentação AWS CloudFormation
 ---
 **What is AWS CloudFormation?** 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html

@@ -19,7 +19,6 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 <img src="./images/01EC2.png" width="600">
 
 2 - Criação de Apache
-
 <img src="./images/02apache.png"  width="600">
 <img src="./images/021apache.png" width="600">
 
@@ -36,7 +35,6 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 ---
 **What is AWS CloudFormation?** 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
-
 
 
 

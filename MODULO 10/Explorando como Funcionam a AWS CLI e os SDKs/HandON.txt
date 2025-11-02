@@ -1,0 +1,65 @@
+- Instalar Git Bash
+- Executar a instalação do AWS CLI e do AWS SDK
+- Configurar o AWS CLI com suas Secrets 
+
+
+1) Criar um Bucket S3 com AWS SDK (Node.js)
+
+// Importa o cliente S3 do AWS SDK
+const { S3Client, CreateBucketCommand } = require("@aws-sdk/client-s3");
+
+// Configuração do cliente S3
+const s3 = new S3Client({
+  region: "us-east-1", // Substitua pela região desejada
+  credentials: {
+    accessKeyId: "SEU_ACCESS_KEY_ID", // Substitua pela sua Access Key
+    secretAccessKey: "SEU_SECRET_ACCESS_KEY" // Substitua pela sua Secret Key
+  },
+});
+
+// Função para criar o bucket
+async function createBucket(bucketName) {
+  try {
+    const params = {
+      Bucket: bucketName,
+      CreateBucketConfiguration: {
+        LocationConstraint: "us-east-1", // Especifique a região
+      },
+    };
+
+    const data = await s3.send(new CreateBucketCommand(params));
+    console.log(`Bucket criado com sucesso: ${data.Location}`);
+  } catch (err) {
+    console.error("Erro ao criar o bucket:", err.message);
+  }
+}
+
+// Chama a função de criação do bucket
+createBucket("meu-bucket-exemplo");
+
+
+#########################################
+Passos para executar:
+Substitua SEU_ACCESS_KEY_ID e SEU_SECRET_ACCESS_KEY pelas suas credenciais da AWS.
+
+Instale o AWS SDK: npm install @aws-sdk/client-s3
+Execute o código: node criar-s3.js
+
+
+
+2) Criar um Bucket S3 com AWS CLI
+Comando CLI:
+aws s3api create-bucket --bucket meu-bucket-exemplo --region us-east-1 --create-bucket-configuration LocationConstraint=sa-east-1
+
+Parâmetros:
+	--bucket: Nome do bucket que você deseja criar.
+	--region: Região onde o bucket será criado.
+	--create-bucket-configuration: Define a configuração de região do bucket (necessário para regiões fora de us-east-1).
+	
+Nomes de Bucket:
+	Devem ser únicos globalmente.
+	Podem conter apenas letras minúsculas, números, e hífens (-).	
+	
+Use o comando CLI abaixo para verificar se o bucket foi criado:	aws s3 ls
+
+# Escolha entre SDK ou CLI conforme sua necessidade! O SDK é ideal para automação dentro de aplicações, enquanto a CLI é prática para comandos pontuais.

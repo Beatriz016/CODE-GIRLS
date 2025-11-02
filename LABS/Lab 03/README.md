@@ -15,15 +15,16 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 
 # # Código
 1 - Criação de instancia EC2
-![alt text](<./images/01EC2.png>)
+<img src="./images/01EC2.png" width="600">
 
 2 - Criação de Apache
-![alt text](<./images/02apache.png>)
-![alt text](<./images/021apache.png>)
+<img src="./images/02apache.png"  width="600">
+<img src="./images/021apache.png" width="600">
 
-1 - Criação/Configuração Firewall
-![alt text](<./images/03firewall.png>)
-![alt text](<./images/031firewall.png>)
+3 - Criação/Configuração Firewall
+<img src="./images/03firewall.png"  width="600">
+<img src="./images/031firewall.png" width="600">
+
 
 ---
 <br>

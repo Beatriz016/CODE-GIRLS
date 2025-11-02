@@ -4,7 +4,7 @@ A atividade proposta foi criar uma arquitetura que utilizava EC2 com EBS ou S3 c
 
 ## Transação e Notificação de Pagamento
 
-![alt text](<Desafio 01.png>)
+![alt text](<./images/Desafio 01.png>)
 
 ---
 

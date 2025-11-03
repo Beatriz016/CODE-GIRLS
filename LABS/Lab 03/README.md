@@ -31,7 +31,7 @@ Esses templates podem ser utilizados para criar e gerenciar os meu recursos na A
 <br>
 <br>
 
-🧩 Documentação AWS Step Functions
+🧩 Documentação AWS CloudFormation
 ---
 **What is AWS CloudFormation?** 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
